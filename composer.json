@@ -1,7 +1,6 @@
 {
     "name": "thieule/micro-service-template",
-    "description": "The Laravel Lumen Framework.",
-    "keywords": ["framework", "laravel", "lumen"],
+    "description": "The template of microservice",
     "license": "MIT",
     "type": "project",
     "require": {
