@@ -11,7 +11,8 @@
         "guzzlehttp/guzzle": "~6.0",
         "symfony/psr-http-message-bridge": "0.2",
         "thieule/rms-app-provider": "1.0.2",
-        "ytake/laravel-aspect": "^1.6"
+        "ytake/laravel-aspect": "^1.6",
+        "pda/pheanstalk": "~3.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
