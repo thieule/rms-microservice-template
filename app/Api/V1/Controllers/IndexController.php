@@ -9,11 +9,10 @@ class IndexController extends BaseController
      * View list of notification config
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function config(\Illuminate\Http\Request $request)
+    public function test(\Illuminate\Http\Request $request)
     {
-        $user = $request->user();
-        $notify = Config::where('user_id', $user->id)->get();
-        return $notify;
+        echo 'test';
+        return [1,1,1,1];
     }
 
     /**

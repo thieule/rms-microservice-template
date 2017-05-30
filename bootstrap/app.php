@@ -65,9 +65,9 @@ $app->singleton(
 //    App\Http\Middleware\ExampleMiddleware::class
 // ]);
 
- $app->routeMiddleware([
-     'auth' => \RMS\Http\Middleware\Authenticate::class,
- ]);
+// $app->routeMiddleware([
+//     'auth' => \RMS\Http\Middleware\Authenticate::class,
+// ]);
 
 /*
 |--------------------------------------------------------------------------
@@ -86,6 +86,7 @@ $app->singleton(
  $app->register(Dingo\Api\Provider\LumenServiceProvider::class);
  $app->register(App\Providers\ExceptionsServiceProvider::class);
  $app->register(RMS\Providers\RootServiceProvider::class);
+ $app->register(RMS\Providers\GoAopServiceProvider::class);
 
 /*
 |--------------------------------------------------------------------------
